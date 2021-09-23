@@ -1,0 +1,103 @@
+$text-color: #333;
+
+$color-75: #757575;
+$color-hover: #f53d2d;
+$color-5b: #5b5b5b;
+
+$background-color: #fbfbfb;
+$background-f5    : #F5F5F5;
+
+$boder-color   : #dbdbdb;
+
+.footer {
+    background-color: $background-color;
+    border-top: 4px solid $color-hover;
+
+    .grid__column-2-4 {
+
+        .footer__heading {
+            margin-top: 0;
+            font-size: 16px;
+            color: $text-color;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+
+        .footer-list {
+
+            .footer-item {
+                font-size: 14px;
+                text-decoration: none;
+                color: $color-75;
+                margin: 14px 0;
+                display: block;
+                line-height: 16px;
+                text-transform: capitalize;
+                padding-left: 12px;
+                position: relative;
+
+                i {
+                    margin-right: 8px;
+                }
+
+                &:hover {
+                    color: $color-hover;
+                }
+
+                &::before {
+                    content: "";
+                        position: absolute;
+                        top: 50%;
+                        left: 0;
+                        transform: translateY(-50%);
+                        background-color: $color-hover;
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                }
+            }
+        }
+
+        .footer__download {
+            display: flex;
+            align-items: center;
+            .footer__download-qr {
+                display: block;
+    border: 1px solid $boder-color;
+                
+                img {
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .footer__download-apps {
+                margin-left: 12px;
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+
+                img {
+                    display: block;
+                    height: 28px;
+                    margin: 4px 0;
+                }
+            }
+        }
+    }
+
+    .footer__bottom {
+        background-color: $background-f5;
+        margin-top: 58px;
+
+        .copy-right {
+            padding: 14px 0 12px;
+            line-height: 12px;
+            font-size: 14px;
+            color: $color-5b;
+            text-align: center;
+            margin: 0;
+        }
+    }
+}

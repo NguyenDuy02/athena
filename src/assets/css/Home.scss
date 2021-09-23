@@ -1,0 +1,148 @@
+$border: #e9e9e9;
+
+$color-hover: #f53d2d;
+$color-white: #fff;
+$color-gray: #c1c1c1;
+$color-8b: #8b8b8b;
+
+$background-color: #fff;
+$background-blue-light: #cfe2ff;
+
+
+.container {
+    padding: 40px 0;
+    .side-bar {
+        .title-list {
+            position: relative;
+            text-transform: capitalize;
+            font-size: 18px;
+            font-weight: bold;
+            padding-left: 24px;
+            i {
+                font-size: 14px;
+                position: absolute;
+                top: 47%;
+                left: -2px;
+                transform: translateY(-50%);
+            }
+        }
+        .product-list {
+            padding-top: 10px;
+            .product-list__item {
+                position: relative;
+                list-style: none;
+                margin: 10px 0; 
+                padding: 4px 12px;
+                border-bottom: 1px solid $border ;
+                cursor: pointer;
+                transition: all .25s;
+                &:last-child {
+                    margin-bottom: 0;
+                    border-bottom: none;
+                }
+                &:hover {
+                    color: $color-hover;
+                    font-weight: bold;
+                    transform: translateX(2px);
+                }
+
+                i {
+                    position: absolute;
+                    top: 47%;
+                    left: -2px;
+                    transform: translateY(-50%) rotate(-90deg);
+                }
+            }
+            .active {
+                color: $color-hover;
+                    font-weight: bold;
+            }
+        }
+    }
+
+    .card-deck {
+        .card {
+            position: relative;
+            height: 320px;
+            margin-bottom: 20px;
+            border-radius: 2px;
+            overflow: hidden;
+            box-shadow: 1px 1px 4px $color-gray;
+            transition: all .25s;
+            .card-img-top {
+                cursor: pointer;
+                width: 100%;
+                height: 200px;
+            }
+            .card-body {
+                padding: 0 12px;
+                .card-title {
+                    margin: 16px 0 10px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    text-transform: capitalize;
+                    cursor: pointer;
+                }
+                .card-text {
+                    color: $color-hover;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            .detail {
+                position: absolute;
+                bottom: -100%;
+                left: 0;
+                width: 100%;
+                background-color: $color-hover;
+                text-transform: capitalize;
+                color: $color-white;
+                text-align: center;
+                font-weight: bold;
+                font-size: 14px;
+                padding: 4px 0;
+                cursor: pointer;
+                transition: all .25s;
+            }
+            &:hover {
+                border: 1px solid $color-hover;
+                transform: translateY(-4px);
+                .detail{
+                    bottom: 0;
+                }
+            }
+        }
+    }
+
+    .filter {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: 20px;
+        .filter-list {
+            background-color: $background-blue-light;
+            padding: 4px 20px;
+            border-radius: 2px;
+            margin-right: 4px;
+            input[type="radio"] {
+                transform: scale(1.3);
+                cursor: pointer;
+            }
+
+            span {
+                margin-left: 8px;
+
+                i {
+                    color: $color-8b;
+                    font-weight: 300;
+                }
+            }
+
+            &:first-child {
+                color: $color-hover;
+                text-transform: capitalize;
+                font-weight: bold;
+            }
+        }
+    }
+}

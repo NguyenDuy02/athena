@@ -1,0 +1,126 @@
+$background-white: #fff;
+$background-00000005: #00000005;
+
+$color-99: #999999;
+$color-orange: #f53d2d;
+$color-gray: #c1c1c1;
+$color-blue: #0d4fa5;
+$color-8b: #8b8b8b;
+
+
+.form-group {
+    width: 400px;
+    margin: 0 auto;
+    background-color: $background-00000005;
+    box-shadow: 0px 1px 5px 1px $color-99;
+    padding: 30px 16px;
+    border-radius: 2px;
+
+
+    h5 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .form-list {
+
+        .form-input-item {
+            position: relative;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+            label {
+                position: absolute;
+                top: 50%;
+                right: 0;
+                transform: translateY(-50%);
+                color: $color-orange;
+                padding: 6px 12px;
+                height: 36px;
+            
+            }
+            input {
+                width: 100%;
+                height: 38px;
+                padding: 6px 12px ;
+                border: 1px solid $color-gray;
+                border-left: 3px solid $color-orange;
+                border-radius: 2px;
+            }
+
+            &:nth-child(2){
+
+                p {
+                    position: absolute;
+                    bottom: -28px;
+                    left: 0;
+                    font-size: 14px;
+                    text-transform: capitalize;
+                    color: $color-blue;
+                    cursor: pointer;
+                    font-weight: bold;
+                   font-style: italic;
+
+                   &:hover {
+                       opacity: 0.8;
+                   }
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+                margin-top: 60px;
+                text-align: center;
+
+                .privacy {
+                    position: absolute;
+                    top: -56px;
+                    left: 0;
+                    font-size: 12px;
+
+                    span {
+                        color: $color-orange;
+                    }
+                }
+
+                button {
+                    background-color: $color-orange;
+                    color: $background-white;
+                    width: 70%;
+                    height: 38px;
+                    border: none;
+                    border-radius: 2px;
+                    font-size: 18px;
+                    display: block;
+                    margin: 0 auto;
+
+                    &:hover {
+                        opacity: 0.8;
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                    margin-top: 8px;
+                    text-transform: capitalize;
+                    color: $color-8b;
+                    i {
+                        transform: rotate(-90deg);
+                        margin: 0 4px;
+                    }
+
+                    span {
+                        display: inline-block;
+                        cursor: pointer;
+                        color: $color-blue;
+                        font-style: italic;
+                        font-weight: bold;
+
+                        &:hover {
+                            opacity: 0.8;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

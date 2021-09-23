@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "name": "Nike Air Max 90",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbOmcEOV-n17rwM9auJbXCVOn0TedYrMgDHB3Da-7tDso7bRUjFX7eSo1auFI96Xq4vQg&usqp=CAU",
+      "price": "1000000",
+      "description": "Air Jordan 1 Mid SE Union - Black Toe",
+      "id": 1
+    },
+    {
+      "name": "Nike Air Max ZM950",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ-gpMPwlWGUCF9ELxxspybOxyJ_s73XIFnf_OXrQGK75RAtCeELTuhx6F3pDoCl9qVXY&usqp=CAU",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 2
+    },
+    {
+      "name": "Nike Wraps Blue ISPA Air Max 270",
+      "image": "https://i.pinimg.com/originals/f3/1f/1c/f31f1c44ea87e5ea2fba732a35a94045.jpg",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 3
+    },
+    {
+      "name": "Nike Air Jordan 1 x Dior",
+      "image": "https://anchuongshoes.vn/wp-content/uploads/2020/11/Air-Jordan-1-x-Dior-2-800x533.jpg",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 4
+    },
+    {
+      "name": "Force Low Just Do It",
+      "image": "https://shopgiaythethaogiare.com/wp-content/uploads/2018/11/giay-nike-air-force-low-just-do-it-gia-re-3.jpg",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 5
+    },
+    {
+      "name": "Force 1 Low Off-White Black White AO4606-001",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3MoFjhuvBxmem4xIMmaFNTLDt5KXHbBXDxQ&usqp=CAU",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 6
+    },
+    {
+      "name": "Nike Air Jordan 1s Off White 'UNC'",
+      "image": "https://lh5.googleusercontent.com/vzAkL6mzcfrfijSktlkm4fxXK4Oc3MUK41wvik9ayIFQ-4FC-MMcOwjxJC4S6qO-wLpaF8VmQarc-5z6WsMSktW2K2vNmC1HUjyGBz78caCyrSI2cYmdqK6Lj_puN62Tj3axon1p",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 7
+    },
+    {
+      "name": "Nike Air max 270 React Blue",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRripfOpM8VAN12CUpRWVmC4SnfbZwkFtzAA&usqp=CAU",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 8
+    },
+    {
+      "name": "Nike Air Jordan 1 Mid Unc",
+      "image": "https://lakbay.vn/cdn1/images/202106/goods_img/giay-air-jordan-1-mid-uncxanh-trang-rep-11-sieu-re---lakbayvn-P1631-1623978065133.jpg",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 9
+    },
+    {
+      "name": "Max 2017 Red/ Black",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbY-1NN1PA2s040IyKpqjDUYiwI1LsT0TxWg&usqp=CAU",
+      "price": "1500000",
+      "description": "phong cách thể thao thật đúng chuẩn mực",
+      "id": 10
+    },
+    {
+      "name": "Nike Air Force",
+      "image": "https://giaysihcm.com/wp-content/uploads/2021/04/z2468147040292_b5a9614b05934d71fc20945ca4609acb-scaled.jpg",
+      "price": "1400000",
+      "description": "chất lượng là trên hết nhé các bạn",
+      "id": 11
+    },
+    {
+      "name": "Nike air max 270",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQNxNYQ_hrs_6CY6mjTXzcrb-hXheJlLZ9eA&usqp=CAU",
+      "price": "2000000",
+      "description": "tự tin khoe cá tính với nike air",
+      "id": 12
+    }
+  ]
+}
