@@ -3,7 +3,7 @@ import { useState } from "react";
 import { React } from 'react';
 
 export const Nav = () => {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
 
   return isLogin ? (
     <nav>

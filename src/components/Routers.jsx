@@ -6,6 +6,7 @@ import { CartItem } from "../views/CartItem";
 import { User } from "../views/User";
 import { Register } from "../views/Register";
 import { Switch, Route } from "react-router-dom";
+import { ProductDetail } from '../views/ProductDetail';
 export const Routers = () => {
   return (
     <Switch>
@@ -26,6 +27,9 @@ export const Routers = () => {
       </Route>
       <Route exact={true} path="/user">
         <User />
+      </Route>
+      <Route exact={true} path="/product-detail">
+        <ProductDetail />
       </Route>
     </Switch>
   );

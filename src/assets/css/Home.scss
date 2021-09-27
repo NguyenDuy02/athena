@@ -11,59 +11,11 @@ $background-blue-light: #cfe2ff;
 
 .container {
     padding: 40px 0;
-    .side-bar {
-        .title-list {
-            position: relative;
-            text-transform: capitalize;
-            font-size: 18px;
-            font-weight: bold;
-            padding-left: 24px;
-            i {
-                font-size: 14px;
-                position: absolute;
-                top: 47%;
-                left: -2px;
-                transform: translateY(-50%);
-            }
-        }
-        .product-list {
-            padding-top: 10px;
-            .product-list__item {
-                position: relative;
-                list-style: none;
-                margin: 10px 0; 
-                padding: 4px 12px;
-                border-bottom: 1px solid $border ;
-                cursor: pointer;
-                transition: all .25s;
-                &:last-child {
-                    margin-bottom: 0;
-                    border-bottom: none;
-                }
-                &:hover {
-                    color: $color-hover;
-                    font-weight: bold;
-                    transform: translateX(2px);
-                }
-
-                i {
-                    position: absolute;
-                    top: 47%;
-                    left: -2px;
-                    transform: translateY(-50%) rotate(-90deg);
-                }
-            }
-            .active {
-                color: $color-hover;
-                    font-weight: bold;
-            }
-        }
-    }
 
     .card-deck {
         .card {
             position: relative;
-            height: 320px;
+            height: 340px;
             margin-bottom: 20px;
             border-radius: 2px;
             overflow: hidden;
@@ -72,7 +24,7 @@ $background-blue-light: #cfe2ff;
             .card-img-top {
                 cursor: pointer;
                 width: 100%;
-                height: 200px;
+                height: 220px;
             }
             .card-body {
                 padding: 0 12px;
@@ -81,7 +33,6 @@ $background-blue-light: #cfe2ff;
                     font-size: 16px;
                     font-weight: bold;
                     text-transform: capitalize;
-                    cursor: pointer;
                 }
                 .card-text {
                     color: $color-hover;
@@ -95,18 +46,19 @@ $background-blue-light: #cfe2ff;
                 left: 0;
                 width: 100%;
                 background-color: $color-hover;
-                text-transform: capitalize;
+                text-transform: uppercase;
                 color: $color-white;
                 text-align: center;
                 font-weight: bold;
                 font-size: 14px;
-                padding: 4px 0;
+                padding: 6px 0;
                 cursor: pointer;
                 transition: all .25s;
             }
             &:hover {
-                border: 1px solid $color-hover;
-                transform: translateY(-4px);
+                // border: 1px solid $color-hover;
+                transform: translateY(-3px);
+
                 .detail{
                     bottom: 0;
                 }
@@ -121,7 +73,7 @@ $background-blue-light: #cfe2ff;
         font-size: 20px;
         .filter-list {
             background-color: $background-blue-light;
-            padding: 4px 20px;
+            padding: 4px 26px;
             border-radius: 2px;
             margin-right: 4px;
             input[type="radio"] {
@@ -130,12 +82,9 @@ $background-blue-light: #cfe2ff;
             }
 
             span {
-                margin-left: 8px;
-
-                i {
-                    color: $color-8b;
-                    font-weight: 300;
-                }
+                margin-left: 12px;
+                text-transform: capitalize;
+                font-size: 16px;
             }
 
             &:first-child {
