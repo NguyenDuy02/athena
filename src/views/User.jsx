@@ -136,6 +136,22 @@ export const User = () => {
               <i className="fas fa-briefcase"></i>work experience
             </h3>
             <ul className="text-list">
+            <li className="text-list-item">
+                <h5>Hoang Phu logistics company</h5>
+                <ul>
+                  <li>
+                    <span>position:</span> telesales staff
+                  </li>
+                  <li>
+                    <span>date:</span> Mar 2020 - Feb 2021
+                  </li>
+                  <li>
+                    <span>description:</span> Find new customers for the company
+                    and source in China through e-commerce sites
+                  </li>
+                </ul>
+              </li>
+
               <li className="text-list-item">
                 <h5>texpo solution</h5>
                 <ul>
@@ -143,27 +159,12 @@ export const User = () => {
                     <span>position:</span> staff
                   </li>
                   <li>
-                    <span>date:</span> Nov 2019 - Dec 2019
+                    <span>date:</span> Aug 2019 - Nov 2019
                   </li>
                   <li>
                     <span>description:</span> Learn how to work at the company,
                     design a website in one page available. Use html, css,
                     bootstrap
-                  </li>
-                </ul>
-              </li>
-              <li className="text-list-item">
-                <h5>incomsoft</h5>
-                <ul>
-                  <li>
-                    <span>position:</span> internship
-                  </li>
-                  <li>
-                    <span>date:</span> july 2019 - oct 2019
-                  </li>
-                  <li>
-                    <span>description:</span> Learn, convert psd files to html
-                    and css
                   </li>
                 </ul>
               </li>

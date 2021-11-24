@@ -111,6 +111,19 @@ export const Home = () => {
                         <ins>đ</ins>
                       </sup>
                     </p>
+                    <div className="card-quantity">
+                      <p>Đã bán 100</p>
+                      <p>
+                        <span className="icon-star">
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
+                        </span>
+                        <span>(1000)</span>
+                      </p>
+                    </div>
                   </div>
                   <div className="detail">
                     <Link to="product-detail">detail</Link>

@@ -18,7 +18,7 @@ export const Footer = () => {
                                 <Link to="">help center</Link>
                             </li>
                             <li className="footer-item">
-                                <Link to="">Apollo mall</Link>
+                                <Link to="">Athena mall</Link>
                             </li>
                             <li className="footer-item">
                                 <Link to="">shopping guide</Link>
@@ -28,7 +28,7 @@ export const Footer = () => {
                     </div>
                     <div className="col-sm-3">
                     <div className="grid__column-2-4">
-                        <h4 className="footer__heading">Apollo shop</h4>
+                        <h4 className="footer__heading">Athena shop</h4>
                         <ul className="footer-list">
                             <li className="footer-item">
                                 <Link to="">introduce apollo shop vietnam</Link>
@@ -37,7 +37,7 @@ export const Footer = () => {
                                 <Link to="">recruitment</Link>
                             </li>
                             <li className="footer-item">
-                                <Link to="">Apollo Shop terms</Link>
+                                <Link to="">Athena Shop terms</Link>
                             </li>
                         </ul>
                     </div>

@@ -4,6 +4,8 @@ $color-hover: #f53d2d;
 $color-white: #fff;
 $color-gray: #c1c1c1;
 $color-8b: #8b8b8b;
+$color-bf: #bfbfbf;
+$color-ffce3d: #ffce3d;
 
 $background-color: #fff;
 $background-blue-light: #cfe2ff;
@@ -38,6 +40,21 @@ $background-blue-light: #cfe2ff;
                     color: $color-hover;
                     font-size: 14px;
                     font-weight: bold;
+                }
+
+                .card-quantity {
+                    display: flex;
+                    justify-content: space-between;
+                    font-size: 12px;
+                    color: $color-bf;
+                    margin-top: 24px;
+                    font-weight: 300;
+
+                    .icon-star {
+                        color: $color-ffce3d;
+                        font-size: 10px;
+                        margin-right: 6px;
+                    }
                 }
             }
             .detail {
